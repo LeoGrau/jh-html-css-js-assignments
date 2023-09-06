@@ -1,0 +1,8 @@
+.text-justify {
+  text-align: justify;
+}
+
+.card-img-size {
+  height: 300px;
+  object-fit: cover;
+}

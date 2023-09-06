@@ -1,3 +1,91 @@
-@media screen {
-  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.bg-pink {
+  background-color:indianred;
+}
+
+.bg-maroon {
+  background-color:maroon;
+  color: white;
+}
+
+.bg-gold {
+  background-color:bisque;
+  color: black;
+}
+
+
+
+.inline-block {
+  display: inline-block;
+}
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-sm-12 {
+  width: 100%;
+}
+
+.menu {
+  height: 100%;
+}
+
+.menu::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33333333%;;
+  }
+} 
+
+.card-container {
+    padding: 20px;
+  float: left;
+}
+.card {
+  box-sizing:border-box;
+  border-radius: 2px;
+  border: 2px solid white;
+  padding: 50px 20px 20px;
+  font-size: 16px;
+}
+
+.tag {
+  border-left: white 2px solid;
+  border-bottom: white 2px solid;
+  border-left: white 2px solid;
+  top: 0;
+  right: 0;
+  padding: 10px;
 }
